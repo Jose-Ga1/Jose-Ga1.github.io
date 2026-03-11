@@ -1,0 +1,32 @@
+---
+title: "Da Website"
+format: html
+editor: visual
+---
+
+This is my website about [penguins](https://animalia-life.club/qa/pictures/images-of-penguins)
+
+## Data
+
+```{r}
+library(tidyverse)
+library(ggthemes)
+library(palmerpenguins)
+library(gt)
+```
+
+```{r}
+glimpse(penguins)
+```
+
+## Species
+
+```{r}
+
+
+ggplot(
+  penguins,  aes( x= bill_length_mm, y= bill_depth_mm, color = species, shape = species)) +
+  geom_point() + theme_minimal() + labs(x = "Bill Length mm", 
+          y = "Bill Depth mm")
+
+```
