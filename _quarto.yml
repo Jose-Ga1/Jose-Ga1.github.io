@@ -1,0 +1,10 @@
+# Quarto configuration file for a website
+
+project:
+  type: website
+  output-dir: _site
+  output: 
+    html:
+      theme: cosmo
+
+# Include other options such as site title or author if needed
