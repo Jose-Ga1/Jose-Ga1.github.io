@@ -98,14 +98,16 @@ h2 {
 .work-link {
    border: 4px solid black;
    background-color: rgb(237, 223, 237);
-   padding: 10px 20px;
+   padding: 2px;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    font-size: 18px;
    text-decoration: none;
    border-radius: 8px;
    transition: background-color 0.3s ease;
+   margin-bottom: 16px;
 }
 
 .work-link:hover {
    background-color: rgb(200, 180, 200);
+
 }
