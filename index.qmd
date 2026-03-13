@@ -1,3 +1,0 @@
-# Your content from Website/index.qmd here
-
-Add the appropriate content that you want to include in the index.qmd file.
